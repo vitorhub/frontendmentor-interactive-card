@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/frontendmentor-interactive-card/static/css/main.eb1c0b13.css",
+    "main.js": "/frontendmentor-interactive-card/static/js/main.6e1be956.js",
+    "static/media/bg-main-desktop.png": "/frontendmentor-interactive-card/static/media/bg-main-desktop.806e7aa7b4dbc1d78bc3.png",
+    "static/media/bg-card-back.png": "/frontendmentor-interactive-card/static/media/bg-card-back.23f68fa3aa3d5b33dfc8.png",
+    "static/media/bg-card-front.png": "/frontendmentor-interactive-card/static/media/bg-card-front.8153e2ca184402a8385f.png",
+    "static/media/bg-main-mobile.png": "/frontendmentor-interactive-card/static/media/bg-main-mobile.caa4689407777a312ede.png",
+    "index.html": "/frontendmentor-interactive-card/index.html",
+    "static/media/icon-complete.svg": "/frontendmentor-interactive-card/static/media/icon-complete.8fd757c0c5c44b1d597ca411400e046d.svg",
+    "static/media/card-logo.svg": "/frontendmentor-interactive-card/static/media/card-logo.8ca9036515954c3f8191559dce9c7bdf.svg",
+    "main.eb1c0b13.css.map": "/frontendmentor-interactive-card/static/css/main.eb1c0b13.css.map",
+    "main.6e1be956.js.map": "/frontendmentor-interactive-card/static/js/main.6e1be956.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb1c0b13.css",
+    "static/js/main.6e1be956.js"
+  ]
+}
