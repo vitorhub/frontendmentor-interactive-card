@@ -6,10 +6,11 @@
     border: 0;
     box-sizing: border-box;
 }
-.pp{
+.app{
     /* background: url('./images/bg-main-desktop.png') no-repeat; */
     background-color: grey;
 /*     background-size: 500px 500px; */
+    min-width: 860px;
 }
 @media(max-width: 375px) {
     .app{

@@ -45,7 +45,7 @@ function Form() {
 
     let input = document.getElementById("number-card");
     let size = input.value.length;
-    if (size === 4 || size === 9 || size === 14) { input.value += " "; }
+    if (size === 4 || size === 9 || size === 14) { input.value += " "; } /* para mascara input */
     setNumberCard(input.value);
 
     if (par !== "") { /* nao vazio */
@@ -62,7 +62,7 @@ function Form() {
   function FuncAdvMascaraNCard() {
     if (campoCard === "ok") { setAdvNCard(<p className="adv" style={{ visibility:"hidden"}} > Cartao ok </p>) }
     else if (campoCard === "regex errado") {
-      setAdvNCard(<p className="advertencia">Wrong format, numbers only</p>)
+      setAdvNCard(<p className="adv">Wrong format, numbers only</p>)
     }
     else if (campoCard === "") { setAdvNCard(<p className="adv"> Can't be blank </p>) }
     else if (campoCard === "<19") { setAdvNCard(<p className="adv"> Missing digit </p>) }
@@ -113,7 +113,7 @@ function Form() {
     if (campoAno === "") { setAdvAno(<p className="adv"> Can't be blank </p>) }
     else if (campoAno === "erro regex") { setAdvAno(<p className="adv"> Numbers only  </p>) }
     else if (campoAno === "ok") { setAdvAno(<p className="adv" style={{visibility:"hidden"}} > Ano ok </p>) }
-    else if (campoAno === "<2") { setAdvAno(<p className="adv"> Two digits minimum </p>) }
+    else if (campoAno === "<2") { setAdvAno(<p className="adv">Need two digits</p>) }
   }
   /* *********************** ANO */
 

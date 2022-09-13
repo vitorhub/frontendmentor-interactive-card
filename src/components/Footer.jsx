@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="footer">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
                 rel="noreferrer" target="_blank">&nbsp; Frontend Mentor</a>.
-            Coded by <a href="!#">&nbsp; Vitor Falcão</a>.
+            By <a href="!#">&nbsp; Vitor Falcão</a>.
         </div>
     )
 }

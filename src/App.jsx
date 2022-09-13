@@ -12,8 +12,8 @@ function App() {
     <div className="app">
       <MainContext> {/* função do contexto envolve componentes */}
         <Bg/>
-        <CardFront/>
         <CardBack />
+        <CardFront/>
         <Form />
         <Footer />
       </MainContext>

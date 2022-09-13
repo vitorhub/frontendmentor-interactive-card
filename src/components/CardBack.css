@@ -1,7 +1,8 @@
 .card-back{
     background-color: chartreuse;
     position: absolute;
-    margin-left: 400px;
+    margin-left: 200px;
+    margin-top: 350px;
 }
 .img-card-back{
     position: absolute;
@@ -14,4 +15,13 @@
     font-size: .8rem;
     font-weight: 500;
     color: #FFF;
+}
+@media(max-width: 375px) {
+    .card-back{
+        background-color: chartreuse;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
 }
