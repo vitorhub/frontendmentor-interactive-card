@@ -1,0 +1,11 @@
+.background{
+    background: url('../images/bg-main-desktop.png') no-repeat;
+    background-color: brown;
+    background-size: 335px 431px; /* largura e altura */
+}
+@media(max-width: 375px) {
+    .background{
+        background-color: blue;
+    }
+
+}

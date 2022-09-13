@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+*{
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.pp{
+    /* background: url('./images/bg-main-desktop.png') no-repeat; */
+    background-color: grey;
+/*     background-size: 500px 500px; */
+}
+@media(max-width: 375px) {
+    .app{
+        background-color: blue;
+    }
+
+}

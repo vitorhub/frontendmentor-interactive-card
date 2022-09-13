@@ -1,0 +1,42 @@
+*{
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+.card-front{
+    background-color: red;
+    position: absolute;
+    margin-top: 100px;
+}
+.bg-card-front{
+    position: absolute;
+    width: 300px;
+}
+.logo-card{
+    position: absolute;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.numero-cartao{
+    position: absolute;
+    margin-top: 80px;
+    font-size: 1.3rem;
+    white-space: nowrap;
+    margin-left: 20px;
+    color: white;
+}
+.nome{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+    white-space: nowrap;
+    font-size: .8rem;
+    color: white;
+}
+.mes-ano{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 220px;
+    font-size: .8rem;
+    color: white;
+}

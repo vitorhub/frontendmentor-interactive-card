@@ -1,0 +1,17 @@
+.card-back{
+    background-color: chartreuse;
+    position: absolute;
+    margin-left: 400px;
+}
+.img-card-back{
+    position: absolute;
+    width: 300px;
+}
+.titulo-cvc{
+    position: absolute;
+    margin-top: 72px;
+    margin-left: 230px;
+    font-size: .8rem;
+    font-weight: 500;
+    color: #FFF;
+}
