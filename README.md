@@ -1,53 +1,66 @@
-# Desafio frontendmentor Interactive card details form
+# Desafio Interactive Card Details Form do site frontendmentor.io
+<img width=470 src="src/images/interactive card.gif">
 
-Descrição: Projeto de formulário dinâmico com advertencias quando o preenchimento dos campos não obedece aos critérios de validação. Para cada tipo de erro de validação existe uma mensagem especifica. Os cartões exibem os valores correspondente dos campos automaticamente quando são digitados.
+## Descrição:
+App gerador de conselhos utilizando uma API\
+<a href="https://vitorhub.github.io/frontendmentor-interactive-card/">Link do site/ Responsivo incompleto</a>
 
-## 🚀 Começando
 
-Para obtenção do projeto clonar link do github:
-git clone https://github.com/vitorhub/frontendmentor-interactive-card.git
+## Indice
+- <a href="#aprendizagens">Aprendizagens</a>
+- <a href="#funcionalidades"> Funcionalidades </a>
+- <a href="#tecnologias"> Tecnologias </a>
+- <a href="#rodar"> Rodar </a>
+- <a href="#colaboradores"> Colaboradores </a>
+- <a href="#next"> Next </a>
+- <a href="#contato"> Contatos </a>
 
-### 📋 Pré-requisitos
+## Aprendizagens
+- [x] Utilização do contex API para gerenciamento de estados.
+- [x] Componentização isolada utilizando os estados compartilhados.
+- [x] Código verboso mas funcional.
 
-Não há pré requisitos além da instalação que segue
+## Funcionalidades
+- [x] Gerador de cartão com nome, numero do cartão, vencimento
+- [x] Restrições e advertência para preenchimento do formulário
 
-### 🔧 Instalação
+## Tecnologias
+1. [React](https://pt-br.reactjs.org)
+2. [Flexbox CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox/)
+3. [Context API](https://legacy.reactjs.org/docs/context.html/)
 
-Apos acessar o diretório clonado, executar comando que segue:
 
+## Rodar
+```bash
+# Projeto inicializado com Create React App
+# https://github.com/facebook/create-react-app
+
+# Clone o repositório na pasta desejada
+$ git clone https://github.com/vitorhub/frontendmentor-interactive-card.git
+
+# Acesse a pasta do projeto no seu terminal
+$ cd frontendmentor-interactive-card/
+
+# Instale as dependencias
+$ npm install
+
+# Inicialize o projeto no navegador
+$ npm start
+
+# Para criar o arquivo de produção
+$ npm run build
+
+# A aplicação será acessada na porta 3000,
+acesse pelo navegador: http://localhost:3000
 ```
-    npm install
-```
-Ou, conforme o caso:
-```
-    yarn
-```
 
-## ⚙️ Execução de testes
+## Colaboradores
+Vitor Falcao\
+<img style="width: 100px" src="https://avatars.githubusercontent.com/u/29690449?v=4" alt="imagem desenvolvedor">
 
-Ainda não há teste automatizado para este projeto.
+## Next
+- [ ] Planejamento da lógica e dos estados compartilhados precisa ser melhor planejada.
+- [ ] Responsividade do site precisa ser melhorada.
 
-## 📦 Implantação
-
-O arquivo package.json está configurado para deploy com endereço pré-configurado.
-O comando que segue sobe a aplicação para este endereço.
-Para configurar endereço alterar o que segue:
-"homepage": "http:// nomeusuariogithub .github.io/ nomedorepositoriocriado ",
-
-```
-    npm run build
-```
-
-## 🛠️ Construído com
-
-* [React](https://pt-br.reactjs.org/docs/getting-started.html) - O framework web usado
-
-
-## ✒️ Autores
-
-Projeto feito por pesquisa própria, não há colaboradores ainda.
-
-<!-- * **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil) -->
-## 📄 Licença
-
-Este projeto está sob a licença (MIT) - veja o arquivo [LICENSE](https://github.com/vitorhub/frontendmentor-interactive-card/blob/main/LICENSE) para detalhes.
+## Contato
+<a href="https://www.linkedin.com/in/vitorfalcaodesenvolvedor/"> Linkedin </a>
